@@ -5,7 +5,8 @@ export default function App() {
   const hotels = {
     Resort: [
       { name: "The Greenvilla", rating: "4/5" },
-      { name: "The Paradise Resort", rating: "3.5/5" }
+      { name: "The Paradise Resort", rating: "3.5/5" },
+      { name: "The Paragon", rating: "4.5/5" }
     ],
     HillStation: [
       {
@@ -13,7 +14,11 @@ export default function App() {
         rating: "4/5"
       },
       {
-        name: "Harry Potter and the Sorcerer's Stone",
+        name: "Coorg Homestays Hillstation",
+        rating: "4.5/5"
+      },
+      {
+        name: "Lonavala Hotels",
         rating: "4.5/5"
       }
     ],
@@ -24,6 +29,10 @@ export default function App() {
       },
       {
         name: "Taj Hotel",
+        rating: "5/5"
+      },
+      {
+        name: "Hyatt Hotels",
         rating: "5/5"
       }
     ],
